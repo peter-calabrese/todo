@@ -1,0 +1,21 @@
+.header {
+  background: var(--grey700);
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p {
+  font-size: 2rem;
+  font-weight: 800;
+  background-image: linear-gradient(90deg, #4ea8de, #5e60ce);
+  color: transparent;
+  background-clip: text;
+}
+
+@media (min-width: 600px) {
+  .header {
+    height: 200px;
+  }
+}

@@ -1,0 +1,32 @@
+.newTodoContainer {
+  display: flex;
+  gap: 1rem;
+
+  height: 50px;
+  margin-top: calc(-25px - 1rem);
+  max-width: 750px;
+}
+
+.newTodoInput {
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid var(--grey700);
+  background-color: var(--grey500);
+  box-shadow: rgba(31, 31, 31, 0.25) 0px 4px 4px;
+  padding: 0 1rem;
+  color: var(--grey100);
+  flex: 2;
+}
+.newTodoInput:focus {
+  outline: none;
+}
+.newTodoButton {
+  width: 90px;
+  height: 49px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--dark-blue);
+  color: var(--grey100);
+  font-weight: bold;
+  box-shadow: rgba(31, 31, 31, 0.25) 0px 4px 4px;
+}

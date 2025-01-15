@@ -1,0 +1,32 @@
+.entryContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--grey500);
+  border-radius: 8px;
+  border: 1px solid var(--grey400);
+  color: var(--grey100);
+  gap: 1rem;
+}
+
+.leftHalfContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.trashCan {
+  min-width: 30px;
+}
+
+.leftHalfContainer p {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
